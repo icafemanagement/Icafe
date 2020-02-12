@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "642967556676",
+    "firebase_url": "https://icafe-cea69.firebaseio.com",
+    "project_id": "icafe-cea69",
+    "storage_bucket": "icafe-cea69.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:642967556676:android:9844d3e597778ebe446211",
+        "android_client_info": {
+          "package_name": "com.example.icafe"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "642967556676-but08mg9rmajk26mauq3ku3pgee15rsq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAvrtAZPX5URGBl2DILL02CgeSN5-87EUs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "642967556676-but08mg9rmajk26mauq3ku3pgee15rsq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
