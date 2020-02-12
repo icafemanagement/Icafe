@@ -7,8 +7,8 @@ import android.widget.Button;
 import android.widget.EditText;
 
 public class employee extends AppCompatActivity {
-    EditText _Name3,  _Password3;
-    Button _Login3;
+    private EditText _Name3,  _Password3;
+    private Button _Login3;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

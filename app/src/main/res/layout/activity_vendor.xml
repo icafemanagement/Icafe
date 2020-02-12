@@ -33,7 +33,7 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/Name2"
-        app:layout_constraintVertical_bias="0.185" />
+        app:layout_constraintVertical_bias="0.25" />
 
     <Button
         android:id="@+id/Login2"
@@ -42,6 +42,8 @@
         android:text="Login"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/Password2" />
+        app:layout_constraintTop_toBottomOf="@+id/Password2"
+        app:layout_constraintVertical_bias="0.428" />
 </androidx.constraintlayout.widget.ConstraintLayout>

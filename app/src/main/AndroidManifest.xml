@@ -12,13 +12,30 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <activity
+            android:name=".Splash"
+            android:theme="@style/SplashTheme">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".MainActivity"
+         android:theme="@style/Theme.AppCompat.Light.NoActionBar"/>
+            />
+        <activity
+            android:name=".admin"
+            android:label="Admin"
+            android:theme="@style/Theme.AppCompat.Light"/>
+        <activity
+            android:name=".vendor"
+            android:label="Vendor"
+            android:theme="@style/Theme.AppCompat.Light"/>
+        <activity
+            android:name=".employee"
+            android:label="Employee"
+            android:theme="@style/Theme.AppCompat.Light"/>
     </application>
 
 </manifest>

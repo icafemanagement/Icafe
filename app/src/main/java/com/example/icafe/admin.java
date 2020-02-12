@@ -7,8 +7,8 @@ import android.widget.Button;
 import android.widget.EditText;
 
 public class admin extends AppCompatActivity {
-EditText _Name1, _Password1;
-Button _ButtonLogin1;
+private EditText _Name1, _Password1;
+private Button _ButtonLogin1;
 
 
     @Override
