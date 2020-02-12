@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">Icafe</string>
+    <string name="admin">Admin</string>
+    <string name="new_user_register">New User? Register</string>
+    <string name="vendor">Vendor</string>
+    <string name="employee">Employee</string>
+    <string name="login_as">Login As :</string>
 </resources>
