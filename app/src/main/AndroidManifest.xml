@@ -32,7 +32,14 @@
             android:theme="@style/Theme.AppCompat.Light.NoActionBar"/>
         <activity
             android:name=".employee"
-            android:theme="@style/Theme.AppCompat.Light.NoActionBar"/>
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".admin_mainactivity"
+            android:theme="@style/Theme.AppCompat.Light" />
+        <activity
+            android:name=".vendor_mainactivity"
+            android:theme="@style/Theme.AppCompat.Light" />
+
     </application>
 
 </manifest>
