@@ -6,6 +6,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.app.ProgressDialog;
 import android.content.Intent;
 import android.os.Bundle;
+import android.text.method.HideReturnsTransformationMethod;
 import android.view.View;
 import android.view.Window;
 import android.widget.Button;
@@ -42,11 +43,11 @@ public class vendor extends AppCompatActivity {
 
         FirebaseUser user = firebaseAuth.getCurrentUser();
 
-//        if(user!= null){
-//            finish();
-//            startActivity(new Intent(admin.this, admin_mainactivity.class));
-//        }
-//        _Password1.setTransformationMethod(HideReturnsTransformationMethod.getInstance());
+       if(user!= null){
+           finish();
+           startActivity(new Intent(vendor.this, vendor_mainactivity.class));
+       }
+       _Password2.setTransformationMethod(HideReturnsTransformationMethod.getInstance());
 
 
         _Login2.setOnClickListener(new View.OnClickListener() {
