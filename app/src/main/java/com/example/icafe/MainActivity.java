@@ -15,7 +15,7 @@ MainActivity extends AppCompatActivity {
     private Button Vendor;
     private Button Employee;
     private TextView Login;
-    //private TextView register;
+    private TextView register;
     Window window;
 
     @Override
@@ -27,7 +27,7 @@ MainActivity extends AppCompatActivity {
         Vendor = (Button)findViewById(R.id.VendorLogin);
         Employee = (Button)findViewById(R.id.EmployeeLogin);
         Login = (TextView)findViewById(R.id.LoginAs);
-        //register = (TextView)findViewById(R.id.Register);
+        register = (TextView)findViewById(R.id.Register);
 
         window = this.getWindow();
         window.setStatusBarColor(this.getColor(R.color.blue));
@@ -51,6 +51,13 @@ MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view){
                 startActivity(new Intent(MainActivity.this, employee.class));
+            }
+        });
+
+        register.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View view){
+                startActivity(new Intent(MainActivity.this, Registeration.class));
             }
         });
 
