@@ -45,11 +45,11 @@ Window window;
 
         FirebaseUser user = firebaseAuth.getCurrentUser();
 
-//        if(user!= null){
-//            finish();
-//            startActivity(new Intent(admin.this, admin_mainactivity.class));
-//        }
-//        _Password1.setTransformationMethod(HideReturnsTransformationMethod.getInstance());
+       if(user!= null){
+           finish();
+           startActivity(new Intent(admin.this, admin_mainactivity.class));
+       }
+       _Password1.setTransformationMethod(HideReturnsTransformationMethod.getInstance());
 
 
         _ButtonLogin1.setOnClickListener(new View.OnClickListener() {
@@ -83,6 +83,8 @@ Window window;
             }
         });
 
+
     }
+
 
 }

@@ -37,6 +37,7 @@ MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view){
                 startActivity(new Intent(MainActivity.this, admin.class));
+                finish();
             }
         });
 
@@ -44,6 +45,7 @@ MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view){
                 startActivity(new Intent(MainActivity.this, vendor.class));
+                finish();
             }
         });
 
@@ -51,6 +53,7 @@ MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view){
                 startActivity(new Intent(MainActivity.this, employee.class));
+                finish();
             }
         });
 
@@ -58,8 +61,11 @@ MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view){
                 startActivity(new Intent(MainActivity.this, Registeration.class));
+                finish();
+
             }
         });
+
 
 
 

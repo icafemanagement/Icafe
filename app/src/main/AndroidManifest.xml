@@ -12,10 +12,6 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Registeration"
-            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
-
-        </activity>
         <activity
             android:name=".Splash"
             android:theme="@style/SplashTheme">
@@ -25,21 +21,25 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity
-            android:name=".MainActivity"
-            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity android:name=".MainActivity"
+         android:theme="@style/Theme.AppCompat.Light.NoActionBar"/>
+            />
         <activity
             android:name=".admin"
-            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"/>
         <activity
             android:name=".vendor"
-            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"/>
         <activity
             android:name=".employee"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
         <activity
             android:name=".admin_mainactivity"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".vendor_mainactivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+
     </application>
 
 </manifest>
