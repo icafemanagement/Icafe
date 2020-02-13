@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.view.Window;
 import android.widget.Button;
 import android.widget.TextView;
 
@@ -15,6 +16,7 @@ MainActivity extends AppCompatActivity {
     private Button Employee;
     private TextView Login;
     //private TextView register;
+    Window window;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -26,6 +28,9 @@ MainActivity extends AppCompatActivity {
         Employee = (Button)findViewById(R.id.EmployeeLogin);
         Login = (TextView)findViewById(R.id.LoginAs);
         //register = (TextView)findViewById(R.id.Register);
+
+        window = this.getWindow();
+        window.setStatusBarColor(this.getColor(R.color.blue));
 
 
         Admin.setOnClickListener(new View.OnClickListener(){

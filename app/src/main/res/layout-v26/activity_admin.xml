@@ -4,47 +4,54 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".admin">
+    tools:context=".admin"
+    android:background="@drawable/background_home">
 
     <EditText
         android:id="@+id/Name1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="260dp"
+        android:layout_height="50dp"
+        android:autofillHints=""
+        android:background="@drawable/custom_button"
         android:ems="10"
         android:hint="@string/name"
         android:inputType="textPersonName"
+        android:textAlignment="center"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.429"
+        app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.188"
-        android:autofillHints="" />
+        app:layout_constraintVertical_bias="0.284" />
 
     <EditText
         android:id="@+id/Password1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="260dp"
+        android:layout_height="50dp"
+        android:autofillHints=""
+        android:background="@drawable/custom_button"
         android:ems="10"
         android:hint="@string/password"
         android:inputType="textPersonName"
+
+        android:textAlignment="center"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.429"
+        app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/Name1"
-        app:layout_constraintVertical_bias="0.191"
-        android:autofillHints="" />
+        app:layout_constraintVertical_bias="0.152" />
 
     <Button
         android:id="@+id/ButtonLogin1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:background="@drawable/custom_button"
         android:text="@string/login"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/Password1"
-        app:layout_constraintVertical_bias="0.386" />
+        app:layout_constraintVertical_bias="0.413" />
 </androidx.constraintlayout.widget.ConstraintLayout>
