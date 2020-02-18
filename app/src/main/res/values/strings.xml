@@ -9,4 +9,9 @@
     <string name="password">Password</string>
     <string name="login">Login</string>
     <string name="todo">TODO</string>
+    <string-array name="Role">
+        <item>Admin</item>
+        <item>Vendor</item>
+        <item>Employee</item>
+    </string-array>
 </resources>

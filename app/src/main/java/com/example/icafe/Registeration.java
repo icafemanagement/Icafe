@@ -7,8 +7,11 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.view.Window;
+import android.widget.AdapterView;
+import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.Spinner;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -17,7 +20,7 @@ import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
 
-public class Registeration extends AppCompatActivity {
+public class Registeration extends AppCompatActivity implements AdapterView.OnItemSelectedListener {
 
     Window window;
     private EditText username;
@@ -26,6 +29,8 @@ public class Registeration extends AppCompatActivity {
     private Button register;
     private TextView back;
     private FirebaseAuth firebaseAuth;
+
+
 
 
     @Override
@@ -37,7 +42,14 @@ public class Registeration extends AppCompatActivity {
         Email = (EditText) findViewById(R.id.EmailRegister);
         Password = (EditText) findViewById(R.id.PasswordRegister);
         register = (Button) findViewById(R.id.RegisterButton);
+        Spinner spinner = findViewById(R.id.spinner);
+        ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(this, R.array.Role, android.R.layout.simple_spinner_item);
+        adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+        spinner.setAdapter(adapter);
+        spinner.setOnItemSelectedListener(this);
         back = (TextView) findViewById(R.id.BackRegister);
+
+
 
 
         window = this.getWindow();
@@ -105,4 +117,17 @@ public class Registeration extends AppCompatActivity {
     }
 
 
+    @Override
+    public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
+        String text = parent.getItemAtPosition(position).toString();
+        Toast.makeText(parent.getContext(),text , Toast.LENGTH_SHORT).show();
+
+
+
+    }
+
+    @Override
+    public void onNothingSelected(AdapterView<?> parent) {
+
+    }
 }
