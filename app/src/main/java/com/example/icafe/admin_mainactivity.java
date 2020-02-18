@@ -7,16 +7,20 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.Window;
 
 import com.google.firebase.auth.FirebaseAuth;
 
 public class admin_mainactivity extends AppCompatActivity {
     private FirebaseAuth firebaseAuth;
+    Window window;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_admin_mainactivity);
+        window = this.getWindow();
+        window.setStatusBarColor(this.getColor(R.color.darkerblue));
     }
     {
 

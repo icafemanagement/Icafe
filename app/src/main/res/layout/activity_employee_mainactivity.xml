@@ -4,7 +4,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".employee_mainactivity">
+    tools:context=".employee_mainactivity"
+    android:background="@drawable/background_home">
+
 
     <ImageButton
         android:id="@+id/imagebutton"
