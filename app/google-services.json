@@ -15,6 +15,14 @@
       },
       "oauth_client": [
         {
+          "client_id": "642967556676-m61nse39cimjpimm75r8c75jc6lp8c15.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.icafe",
+            "certificate_hash": "400311b4bf138fbe16a833d1e7a6073fd2b8d1b3"
+          }
+        },
+        {
           "client_id": "642967556676-but08mg9rmajk26mauq3ku3pgee15rsq.apps.googleusercontent.com",
           "client_type": 3
         }
