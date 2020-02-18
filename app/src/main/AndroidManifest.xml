@@ -35,13 +35,19 @@
             android:theme="@style/Theme.AppCompat.Light.NoActionBar"/>
         <activity
             android:name=".employee_mainactivity"
+            android:label="Employee"
             android:theme="@style/Theme.AppCompat.Light"/>
         <activity
             android:name=".admin_mainactivity"
+            android:label="Admin"
             android:theme="@style/Theme.AppCompat.Light"/>
         <activity
             android:name=".vendor_mainactivity"
+            android:label="Vendor"
             android:theme="@style/Theme.AppCompat.Light"/>
+        <activity
+            android:name=".Registeration"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"/>
     </application>
 
 </manifest>
