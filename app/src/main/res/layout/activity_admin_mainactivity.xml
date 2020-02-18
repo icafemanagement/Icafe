@@ -8,50 +8,50 @@
 
     <Button
         android:id="@+id/ButtonMenuCreation1"
-        android:layout_width="250dp"
-        android:layout_height="60dp"
+        android:layout_width="418dp"
+        android:layout_height="140dp"
+        android:background="@drawable/custom_button5"
         android:text="Menu Creation"
         android:textAllCaps="false"
         android:textColor="	#000000"
         android:textSize="20sp"
-        android:background="@drawable/custom_button5"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintHorizontal_bias="0.571"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.147" />
+        app:layout_constraintVertical_bias="0.051" />
 
     <Button
         android:id="@+id/ButtonVendorVerification1"
-        android:layout_width="250dp"
-        android:layout_height="60dp"
+        android:layout_width="412dp"
+        android:layout_height="148dp"
+        android:background="@drawable/custom_button5"
         android:text="Vendor Verification"
         android:textAllCaps="false"
         android:textColor="	#000000"
         android:textSize="20sp"
-        android:background="@drawable/custom_button5"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/ButtonMenuCreation1"
-        app:layout_constraintVertical_bias="0.292" />
+        app:layout_constraintVertical_bias="0.064" />
 
     <Button
         android:id="@+id/ButtonReports1"
-        android:layout_width="250dp"
-        android:layout_height="60dp"
+        android:layout_width="398dp"
+        android:layout_height="139dp"
+        android:background="@drawable/custom_button5"
         android:text="Reports"
         android:textAllCaps="false"
         android:textColor="	#000000"
         android:textSize="20sp"
-        android:background="@drawable/custom_button5"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintHorizontal_bias="0.461"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/ButtonVendorVerification1"
-        app:layout_constraintVertical_bias="0.446" />
+        app:layout_constraintVertical_bias="0.116" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
