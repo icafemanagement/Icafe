@@ -8,24 +8,23 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.Button;
-import android.widget.ImageButton;
 
 import com.google.firebase.auth.FirebaseAuth;
 
 public class employee_mainactivity extends AppCompatActivity {
 
     private FirebaseAuth firebaseAuth;
-    private Button _recharge, _transaction;
-    private ImageButton _imagebutton;
+    private Button _placeorder, _transaction;
     @Override
 
 
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_employee_mainactivity);
-        _recharge = (Button)findViewById(R.id.recharge);
-        _transaction = (Button)findViewById(R.id.transaction);
-        _imagebutton = (ImageButton)findViewById(R.id.imagebutton);
+        _placeorder = (Button)findViewById(R.id.placeorderbutton);
+        _transaction = (Button)findViewById(R.id.transactionbutton);
+
+
     }
     {
 
