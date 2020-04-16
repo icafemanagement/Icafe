@@ -23,7 +23,7 @@
         <Button
             android:id="@+id/placeorderbutton"
             android:layout_width="239dp"
-            android:layout_height="100dp"
+            android:layout_height="80dp"
             android:layout_marginBottom="68dp"
             android:background="@drawable/custom_button4"
             android:text="Place Order"
@@ -40,7 +40,7 @@
         <Button
             android:id="@+id/transactionbutton"
             android:layout_width="246dp"
-            android:layout_height="95dp"
+            android:layout_height="80dp"
             android:layout_marginBottom="72dp"
             android:background="@drawable/custom_button4"
             android:text="Transaction"
@@ -55,7 +55,7 @@
         <Button
             android:id="@+id/walletbutton"
             android:layout_width="252dp"
-            android:layout_height="92dp"
+            android:layout_height="80dp"
             android:background="@drawable/custom_button4"
             android:text="E -Wallet"
             android:textAllCaps="false"
