@@ -13,7 +13,7 @@
         android:layout_width="250dp"
         android:layout_height="60dp"
         android:background="@drawable/custom_button3"
-        android:text="Menu election"
+        android:text="Menu selection"
         android:textAllCaps="false"
         android:textColor="@color/black"
         android:textSize="20sp"
@@ -25,11 +25,11 @@
         app:layout_constraintVertical_bias="0.194" />
 
     <Button
-        android:id="@+id/imagepricebutton"
+        android:id="@+id/orderbutton"
         android:layout_width="250dp"
         android:layout_height="60dp"
         android:background="@drawable/custom_button3"
-        android:text="Image and price of menu"
+        android:text="Orders"
         android:textAllCaps="false"
         android:textColor="@color/black"
         android:textSize="20sp"
@@ -52,5 +52,5 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imagepricebutton" />
+        app:layout_constraintTop_toBottomOf="@+id/orderbutton" />
 </androidx.constraintlayout.widget.ConstraintLayout>
